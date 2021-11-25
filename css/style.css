@@ -1,0 +1,261 @@
+@font-face {
+    font-family: Exo-2;
+    src: url(../fonts/Exo2-Medium.ttf);
+}
+.site-title {
+    font-family: Exo-2;
+    margin-top: 50px;
+}
+.site-title-word {
+    font-size: 92px;
+    font-weight: bold;
+}
+.bg-img
+{
+	background: url(../img/back.jpg) no-repeat center center / cover;
+	background-attachment: fixed;
+  	height: 100vh;
+}
+.color-blur {
+    background: linear-gradient(white, rgba(105, 88, 60, 0.5) 25%);
+    backdrop-filter: blur(5px);
+    height: 100vh;
+}
+.about_us
+{
+	padding: 20px;
+	height: 50%;
+}
+.about_us p
+{
+	font-size: 20px;
+}
+.header {
+    padding: 5px;
+}
+.logo-block img:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.nav_link {
+    color: gray;
+    text-decoration: none;
+    transition: 0.5s ease;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    white-space: nowrap;
+}
+.nav_link:hover {
+    color: black;
+    background-color: #ffd38c;
+}
+.logo {
+    width: 150px;
+    transition: 1s ease;
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.phone a:hover {
+    border-bottom: 1px solid white;
+}
+
+.slider-block {
+    background: linear-gradient(#ffad8c, #ffad8c);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.slider-block .container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 20px;
+}
+
+.pluse-block {
+	padding: 15px;
+}
+.pluses-block {
+    background: linear-gradient(white, #ffd38c 25%);
+}
+.pluses-block .container .row .fs-1 {
+    color: rgb(80, 80, 80);
+    margin-top: 100px;
+}
+.pluse-text {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	min-height: 300px;
+	background-color: white;
+    transition: 0.5s ease;
+}
+.pluse-text p {
+    padding-top: 20px;
+}
+.pluse-img {
+    min-width: 150px;
+    max-width: 150px;
+}
+.pluse-text:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+.samples {
+    background: linear-gradient(#ffd38c, #ffad8c);
+}
+.samples .container .row .fs-1 {
+    color: rgb(80, 80, 80);
+    margin-top: 100px;
+}
+
+.sample-item {
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 3px 10px;
+    background-color: white;
+    min-height: 350px;
+    padding: 15px;
+    transition: 0.5s ease;
+}
+
+.sample-block {
+    padding: 15px;
+}
+.sample-item:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+
+.sample-img {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.prices {
+    background: linear-gradient(#ffad8c, #ffcf81 15%);
+}
+.prices .container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 20px;
+}
+
+.price-item {
+    min-height: 300px;
+    min-width: 300px;
+    padding: 15px;
+    transition: 0.5s ease;
+}
+.price-item:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+}
+.price-img {
+    min-height: 150px;
+    max-height: 150px;
+    object-fit: contain;
+}
+.carousel-inner
+{
+	height: 300px;
+}
+.carousel-item
+{
+	font-size: 20px;
+	height: 100%;
+}
+.slide
+{
+	height: 100%;
+	width: 100%;
+	padding: 50px;
+}
+.callback-block {
+    background: linear-gradient(#ffcf81, #ffad8c 30%);
+}
+.callback-block .container {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.callback-form > .row {
+    margin-bottom: 7px;
+}
+
+label {
+    font-size: 16px;
+}
+.map{
+    overflow:hidden;
+    padding-bottom: 56.25%;
+    position:relative;
+    height:0;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.contact-block {
+    background: linear-gradient(#ffad8c, #de5aff);
+}
+
+.contact-list {
+    list-style: none;
+    padding-left: 5px;
+}
+.contact-list-block {
+    font-size: 20px;
+}
+footer {
+    background: linear-gradient(#de5aff, #8c3ac2);
+}
+footer * {
+    width: max-content;
+}
+footer > p {
+    font-size: 22px;
+    text-align: center;
+}
+.social-title {
+    font-size: 22px;
+}
+.social img {
+    width: 30px;
+}
+.social-icons * {
+    margin: 0 5px;
+}
+
+.social-icons a img:hover {
+    opacity: 0.5;
+}
+
+.up-button {
+    border-radius: 50%;
+}
+.up-button:hover {
+    outline-offset: 1px;
+    border: 1px solid grey;
+}
+
+.up-buttons {
+    position: fixed;
+    bottom: 5%;
+    right: 7%;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+	.slide {
+		padding: 50px 25px;
+        height: max-content;
+	}
+    .carousel-inner {
+        overflow: scroll;
+    }
+}
